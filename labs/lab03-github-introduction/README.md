@@ -84,5 +84,34 @@ Complete all of the following in your notes section.
 
 # Section 3: Student Notes
 
-Delete this line and write your notes here.
+# GitHub Notes
+Github is a place where I can store share and code online. Git is used to trach changes to files.
+
+## Git
+**Git** heps keep track of changes.*Git commands* can be used in a terminal to work with a repository. 
+
+### GitHubGithub 
+allows developers to store reposotories and work with there code.
+
+---
+
+### Things IHave Learned 
+- Git tracks changes
+- GitHub stores repositories 
+- Branches allow you to work on different versions of a project 
+
+### Basic Git steps 
+1. create or open repository 
+2. make changes to the file 
+3. commit and push the changes 
+
+### My Git Tasks
+-[] Create a Branch
+-[] Make changes to the README
+-[] Push my changes to GitHub
+
+[My GitHub profile](https://github.com/Mersadeys-thecat)
+
+
+
 

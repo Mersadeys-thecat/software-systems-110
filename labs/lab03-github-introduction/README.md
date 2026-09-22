@@ -44,7 +44,7 @@ This text is *italicized*.
 
 ## Task List Example
 
-- [x] Completed Task
+- [ ] Completed Task
 - [ ] Incomplete Task
 - [ ] Incomplete Task
 
@@ -106,9 +106,13 @@ allows developers to store reposotories and work with there code.
 3. commit and push the changes 
 
 ### My Git Tasks
--[] Create a Branch
--[] Make changes to the README
--[] Push my changes to GitHub
+-[ ] Create a Branch
+
+-[ ] Make changes to the README
+
+-[ ] Push my changes to GitHub
+---
+
 
 [My GitHub profile](https://github.com/Mersadeys-thecat)
 

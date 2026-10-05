@@ -106,7 +106,7 @@
 
     <script>
 
-        let doISayHello = false;
+        let doISayHello = true;
         let doISayGoodbye = false;
 
         function updateVariables() {
@@ -128,9 +128,69 @@
 
         function sayHello() {
 
+            /***********************************************************************
+            * DIRECTIONS
+            *
+            * Run the program using every possible combination of true and false
+            * values for the variables below.
+            *
+            * Record your observations for each test in the Student Observation
+            * Area.
+            ***********************************************************************/
+
+            /*
+                STUDENT OBSERVATION AREA
+            
+                Test #1
+                doISayHello = true
+                doISayGoodbye = true
+             
+                Observation:Hello, World!
+...
+...
+I am tired of being outside. I am going inside now.
+            
+                ***********************************************************************
+                
+                Test #2
+                doISayHello = false
+                doISayGoodbye = false
+             
+                Observation:Why am I even out here? It's cold as heck.
+...
+...
+I am tired of being outside. I am going inside now.
+            
+                ***********************************************************************
+
+                Test #3
+                doISayHello = true
+                doISayGoodbye = false
+             
+                Observation:Hello, World!...
+...
+I am tired of being outside. I am going inside now.
+
+                ***********************************************************************    
+
+                Test #4
+                doISayHello = false
+                doISayGoodbye = true
+             
+                Observation:Goodbye,cruel cruel World!
+...
+...
+I am tired of being outside. I am going inside now.
+                
+            */
+    
+
             let message;
             let finalMessage;
+if(doISayHello == false && doISayGoodbye == false) {
 
+                // Assign a greeting message.
+                message = "Hello, World!";
             if(doISayHello == true) {
 
                 // Assign a greeting message.
@@ -139,14 +199,18 @@
             } else if(doISayGoodbye == true) {
 
                 // Assign a goodbye message.
-                message = "Goodbye, World!";
+                message = "Goodbye,cruel cruel World!";
 
             } else {
 
                 // Assign a default message.
-                message = "Why am I even out here? It's cold.";
+                message = "Why am I even out here? It's cold as heck.";
 
             }
+              } else {
+
+                // Assign a default message.
+                message = "get me out of here";
 
             // Assign a message that always displays.
             finalMessage = "I am tired of being outside. I am going inside now.";
@@ -162,7 +226,10 @@
 
         }
 
-    </script>
 
+    </script>
+        <h1> Mersadeys Mysliwiec</h1> 
+
+        <p> Fun cat of the day for you! <a href="https://catoftheday.com/#google_vignette">Go to Google</a></p>
 </body>
 </html>

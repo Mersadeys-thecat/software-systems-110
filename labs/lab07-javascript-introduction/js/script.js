@@ -63,7 +63,7 @@ function toggleDayNight() {
 
     // Day mode: add the "day-mode" CSS class to the body
     body.classList.add("day-mode");
-    toggleBtn.textContent = "☾ Night Mode";
+    toggleBtn.textContent = "☾ Night Mode"; 
 
   } else {
 
@@ -104,7 +104,7 @@ function runBroadcast() {
    * Your mission:
    * Repair the condition so valid numbers are accepted.
    *****************************************************************/
-  if (isNaN(count) || count < 1) {
+  if (isNaN(count) || count <= 0) {
     alert("Please enter a number greater than 0.");
     return;
   }
